@@ -215,6 +215,11 @@ Right content area*/
 		width: 400px;
 	}
 
+	.profile {
+		width: 370px;
+		margin-bottom: 15px;
+	}
+
 }
 
 @media (max-width: 768px) {
@@ -229,6 +234,10 @@ Right content area*/
 
 	.content {
 		width: 600px;
+	}
+
+	.profile {
+		width: 570px;
 	}
 
 	.sidebar {
