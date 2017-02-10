@@ -219,6 +219,10 @@ Right content area*/
 		margin-bottom: 15px;
 	}
 
+	.field {
+		width: 370px;
+	}
+
 	.portfolio {
 		width: 370px;
 		margin-bottom: 15px;
@@ -253,7 +257,7 @@ Right content area*/
 		width: 600px;
 	}
 
-	.profile {
+	.profile, .field {
 		width: 570px;
 	}
 
@@ -338,6 +342,12 @@ Right content area*/
 		padding: 0 0 10px 0;
 		width: 100%;
 		margin: 0;
+	}
+
+	.field {
+		width: 100%;
+		padding: 0;
+		margin: 10px 0;
 	}
 	
 	.portfolio {
