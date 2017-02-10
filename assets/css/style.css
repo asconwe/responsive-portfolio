@@ -115,7 +115,7 @@ footer {
 .portfolio {
 	position: relative;
 	width: 280px;
-	height: 280;
+	height: 280px;
 	margin-top: 15px;
 	float: left;
 }
@@ -220,6 +220,19 @@ Right content area*/
 		margin-bottom: 15px;
 	}
 
+	.portfolio {
+		width: 370px;
+		margin-bottom: 15px;
+	}
+
+	.portfolio:nth-child(even) {
+		margin-right: 0px;
+	}
+
+	.portfolio>img {
+		width: 370px;
+	}
+
 }
 
 @media (max-width: 768px) {
@@ -238,6 +251,14 @@ Right content area*/
 
 	.profile {
 		width: 570px;
+	}
+
+	.portfolio {
+		width: 270px;
+	}
+
+	.portfolio>img {
+		width: 270px;
 	}
 
 	.sidebar {
@@ -305,6 +326,21 @@ Right content area*/
 		padding: 0 0 10px 0;
 		width: 100%;
 		margin: 0;
+	}
+	
+	.portfolio {
+		padding: 0 0 10px 0;
+		width: 100%;
+		margin: 0;
+	}
+
+	.portfolio:nth-child(odd) {
+		margin-left: 0
+	}
+
+	.portfolio>img {
+		margin: 0;
+		width: 100%;
 	}
 
 	.sidebar {
