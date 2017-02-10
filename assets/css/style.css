@@ -115,7 +115,6 @@ footer {
 .portfolio {
 	position: relative;
 	width: 280px;
-	height: 280px;
 	margin-top: 15px;
 	float: left;
 }
@@ -227,6 +226,11 @@ Right content area*/
 
 	.portfolio:nth-child(even) {
 		margin-right: 0px;
+		margin-left: 15px;
+	}
+
+	.overlay {
+		top: 280px;
 	}
 
 	.portfolio>img {
@@ -257,8 +261,16 @@ Right content area*/
 		width: 270px;
 	}
 
+	.portfolio:nth-child(even) {
+		margin-left: 0;
+	}
+
 	.portfolio>img {
 		width: 270px;
+	}
+
+	.overlay {
+		top: 180px;
 	}
 
 	.sidebar {
@@ -341,6 +353,11 @@ Right content area*/
 	.portfolio>img {
 		margin: 0;
 		width: 100%;
+	}
+
+	.overlay {
+		top: 65%;
+		padding-top: 12%;
 	}
 
 	.sidebar {
